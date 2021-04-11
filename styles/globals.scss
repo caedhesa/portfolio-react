@@ -1,0 +1,19 @@
+//REMOVE AUTOFILLED TEXTFIELDS BACKGROUND
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.material-icons.md-48 { font-size: 48px; }
+
+//REMOVE ANIMATIONS IF PREFERRED
+  @media (prefers-reduced-motion: reduce) {
+  * {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+  }
+  }
